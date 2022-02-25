@@ -1,6 +1,6 @@
 const express = require("express");
 
-const { Telivision,Clock } = require("../models/users.models")
+const { Telivision,Clock,Laptop,Mobile } = require("../models/users.models")
 
 const router = express.Router();
 
@@ -52,8 +52,46 @@ router.get("/clock", async (req, res) => {
   }
 });
 
-// for deleting data base clock
+// post router laptop
+router.post("/laptop", async (req, res) => {
+    try {
+        const laptop = await Laptop.create(req.body);
+        res.send(laptop);
+    }
+    catch(err) {
+        res.send(err.message)
+    }
+})
 
+// get request for laptop 
+router.get("/laptop", async (req, res) => {
+  try {
+    const laptop = await Laptop.find().lean().exec();
+    res.send(laptop);
+  } catch (err) {
+    res.send(err.message);
+  }
+});
 
+// post router mobile
+router.post("/mobile", async (req, res) => {
+    try {
+        const mobile = await Mobile.create(req.body);
+        res.send(mobile);
+    }
+    catch(err) {
+        res.send(err.message)
+    }
+})
+
+// get request for mobile 
+router.get("/mobile", async (req, res) => {
+  try {
+    const mobile = await Mobile.find().lean().exec();
+    res.send(mobile);
+  } catch (err) {
+    res.send(err.message);
+  }
+});
 
 module.exports = router;

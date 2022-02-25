@@ -36,7 +36,43 @@ const clockSchemas = new mongoose.Schema(
   }
 );
 
-
 const Clock = mongoose.model("clock1", clockSchemas); 
 
-module.exports = { Telivision , Clock};
+
+// laptop schemas 
+const laptopSchema = new mongoose.Schema(
+  {
+    category: { type: String, required: true },
+    title: { type: String, required: true },
+    newPrice: { type: String, required: true },
+    oldPrice: { type: String, required: true },
+    image: { type: String, required: true },
+    offer: { type: String, required: true },
+  },
+  {
+    versionKey: false,
+    timestamps: true,
+  }
+);
+
+const Laptop = mongoose.model("laptop", laptopSchema);
+
+// mobile schemas 
+const mobileSchema = new mongoose.Schema(
+  {
+    category: { type: String, required: true },
+    title: { type: String, required: true },
+    newPrice: { type: String, required: true },
+    oldPrice: { type: String, required: true },
+    image: { type: String, required: true },
+    offer: { type: String, required: true },
+  },
+  {
+    versionKey: false,
+    timestamps: true,
+  }
+);
+
+const Mobile = mongoose.model("mobile", mobileSchema);
+
+module.exports = { Telivision, Clock, Laptop, Mobile };
