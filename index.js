@@ -22,7 +22,7 @@ app.get('/auth/google',
  
 app.get( '/auth/google/callback',
     passport.authenticate( 'google', {
-        //successRedirect: '/auth/google/success',
+      //  successRedirect: '/homepage.html',
         failureRedirect: '/auth/google/failure'
 }),(req, res) => {
     const token = newToken(req.user)
@@ -33,12 +33,12 @@ app.get( '/auth/google/callback',
 });
 
 passport.serializeUser(function(user, done) {
-    console.log("5",user)
+    //console.log("5",user)
     done(null, user);
   });
   
   passport.deserializeUser(function(user, done) {
-    console.log("25",user)
+    //console.log("25",user)
 
     done(null, user);
   });
