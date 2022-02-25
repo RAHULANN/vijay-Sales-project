@@ -3,14 +3,12 @@ const app = express();
 
 const connect = require('./configs/db');
 const userController = require("./controller/user.controller")
-const productController = require("./controller/product.controller")
 const passport = require("./configs/google-oauth")
 
 const {register,login,newToken} = require("./controller/auth.controller")
 
 app.use(express.json())
 app.use("/users", userController)
-app.use("/products", productController)
 
 app.post("/register",register)
 app.post("/login",login)
