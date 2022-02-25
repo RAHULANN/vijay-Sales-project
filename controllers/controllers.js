@@ -27,6 +27,7 @@ router.get("/telvisions", async (req, res) => {
   }
 });
 
+
 // craete all such things for electronic as well
 
 // post router clock 
