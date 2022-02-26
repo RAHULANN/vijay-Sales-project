@@ -22,7 +22,7 @@ app.get('/auth/google',
  
 app.get( '/auth/google/callback',
     passport.authenticate( 'google', {
-        successRedirect: '/auth/google/index.html',
+        successRedirect: 'https://focused-pike-a1a3fc.netlify.app',
         failureRedirect: '/auth/google/failure'
 }),(req, res) => {
     const token = newToken(req.user)
