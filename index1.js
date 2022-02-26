@@ -22,7 +22,7 @@ app.get('/auth/google',
  
 app.get( '/auth/google/callback',
     passport.authenticate( 'google', {
-      //  successRedirect: '/homepage.html',
+        successRedirect: '/auth/google/index.html',
         failureRedirect: '/auth/google/failure'
 }),(req, res) => {
     const token = newToken(req.user)
