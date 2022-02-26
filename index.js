@@ -33,7 +33,7 @@ app.get( '/auth/google/callback',
 });
 
 passport.serializeUser(function(user, done) {
-    //console.log("5",user)
+    console.log("5",user)
     done(null, user);
   });
   
