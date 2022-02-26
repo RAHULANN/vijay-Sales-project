@@ -1,18 +1,15 @@
 {
   "name": "vijay-sales-project",
   "version": "1.0.0",
-  "description": "project of vijay sales clone in unit 4",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RAHULANN/vijay-Sales-project.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -20,11 +17,14 @@
   },
   "homepage": "https://github.com/RAHULANN/vijay-Sales-project#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "mongoose": "^6.2.3"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.3",
+    "npm": "^8.5.2",
+    "passport": "^0.5.2",
+    "passport-google-oauth2": "^0.2.0",
+    "uuid": "^8.3.2"
   }
 }
