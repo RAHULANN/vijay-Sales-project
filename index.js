@@ -2,10 +2,10 @@ const express = require('express');
 const app = express();
 
 const connect = require('./configs/db');
-const userController = require("./controller/user.controller")
+const userController = require("./controller1/user.controller")
 const passport = require("./configs/google-oauth")
 
-const {register,login,newToken} = require("./controller/auth.controller")
+const {register,login,newToken} = require("./controller1/auth.controller")
 
 app.use(express.json())
 app.use("/users", userController)

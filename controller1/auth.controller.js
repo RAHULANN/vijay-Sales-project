@@ -1,5 +1,5 @@
 require("dotenv").config();
-const User = require("../models/user.model")
+const User = require("../models1/user.model")
 var jwt = require('jsonwebtoken');
 
 const newToken = (user) =>{
