@@ -12,7 +12,7 @@
 
 <a ><div> <h4> Home Page </h4> <\n>
   
-  <img src="https://github.com/ProgrammerBhanu/TataCliq-Project/blob/main/images/home-page.png"/>
+  <img src="https://github.com/RAHULANN/vijay-Sales-project/blob/main/readmi%20img/Screenshot%20(857).png"/>
   </div></a>
 
 
