@@ -10,10 +10,10 @@
 <div>
 <h2> VIJAY SALES clone </h2>
 
-<a href="https://focused-pike-a1a3fc.netlify.app/" ><div> <h3> Home Page </h3> 
+<div><a href="https://focused-pike-a1a3fc.netlify.app/" > <h3> Home Page </h3> 
   
   <img src="https://github.com/RAHULANN/vijay-Sales-project/blob/main/readmi%20img/Screenshot%20(857).png"/>
-  </div></a>
+  </a></div>
 
 <a href="https://focused-pike-a1a3fc.netlify.app/category.html" ><div> <h3>Product Page </h3> 
   
