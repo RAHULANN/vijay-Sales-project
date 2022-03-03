@@ -10,27 +10,27 @@
 <div>
 <h2> VIJAY SALES clone </h2>
 
-<a href="https://focused-pike-a1a3fc.netlify.app/" ><div> <h4> Home Page </h4> 
+<a href="https://focused-pike-a1a3fc.netlify.app/" ><div> <h3> Home Page </h3> 
   
   <img src="https://github.com/RAHULANN/vijay-Sales-project/blob/main/readmi%20img/Screenshot%20(857).png"/>
   </div></a>
 
-<a href="https://focused-pike-a1a3fc.netlify.app/category.html" ><div> <h4>Product Page </h4> 
+<a href="https://focused-pike-a1a3fc.netlify.app/category.html" ><div> <h3>Product Page </h3> 
   
   <img src="https://github.com/RAHULANN/vijay-Sales-project/blob/main/readmi%20img/Screenshot%20(859).png"/>
   </div></a>
 
-<a href=" https://focused-pike-a1a3fc.netlify.app/uniqueproduct"><div> <h4> discvery Page </h4> 
+<a href=" https://focused-pike-a1a3fc.netlify.app/uniqueproduct"><div> <h3> discvery Page </h3> 
   
   <img src="https://github.com/RAHULANN/vijay-Sales-project/blob/main/readmi%20img/Screenshot%20(858).png"/>
   </div></a>
   
-  <a href="https://focused-pike-a1a3fc.netlify.app/cart.html" ><div> <h4> Cart Page </h4> 
+  <a href="https://focused-pike-a1a3fc.netlify.app/cart.html" ><div> <h3> Cart Page </h3> 
   
   <img src="https://github.com/RAHULANN/vijay-Sales-project/blob/main/readmi%20img/Screenshot%20(863).png"/>
   </div></a>
   
-   <a href="https://focused-pike-a1a3fc.netlify.app/payments.html"><div> <h4> Payment Page </h4> 
+   <a href="https://focused-pike-a1a3fc.netlify.app/payments.html"><div> <h3> Payment Page </h3> 
   
   <img src="https://github.com/RAHULANN/vijay-Sales-project/blob/main/readmi%20img/Screenshot%20(862).png"/>
   </div></a>
